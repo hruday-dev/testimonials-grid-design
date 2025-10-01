@@ -63,11 +63,15 @@ article:first-child{
     grid-area: 1/ span 2;
     background-color: var(--Purple500);
     color: white;
+    background-image: url('../images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position-x: 80%;
 }
 article:last-child{
     grid-column: 4;
     grid-row: 1 / span 2;
     color: var(--Grey500);
+    background-color: white;
     
 }
 article:nth-child(4){
@@ -80,7 +84,8 @@ article:nth-child(2){
     color: var(--Grey100);
 }
 article:nth-child(3){
-    color: var(--Grey500);  
+    color: var(--Grey500);
+    background-color: white;  
 }
 
 @media (min-width: 700px) and (max-width:960px) {
@@ -107,5 +112,8 @@ article:nth-child(3){
     }
     article > p:last-child{
     font-size: 1.2rem;
+    }
+    article:first-child{
+     background-image: none;
     }
 }
