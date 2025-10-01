@@ -26,8 +26,8 @@ main{
 }
 section{
     display: grid;
-    grid-template-columns: repeat(4,265px);
-    grid-template-rows: repeat(2,255px);
+    grid-template-columns: repeat(4,255px);
+    grid-template-rows: repeat(2,265px);
     gap: 25px;
 }
 article {
@@ -53,6 +53,8 @@ article > p:nth-child(2){
 }
 article > p:last-child{
     font-size: 1rem;
+    font-weight: 400;
+    line-height: 18px;
 }
 
 
